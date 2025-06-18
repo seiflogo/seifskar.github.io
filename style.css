@@ -1,444 +1,135 @@
 /* style.css */
 
-{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-scroll-behavior: smooth;
-font-family: "Poppins", sans-serif;
-}
+{ margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; font-family: "Poppins", sans-serif; }
 
 
-body {
-background: #000;
-color: #fff;
-cursor: url('cursor.png'), auto;
-}
+body { background: #000; color: #fff; cursor: url('cursor.png'), auto; }
 
-section {
-min-height: 100vh;
-padding: 50px;
-}
+section { min-height: 100vh; padding: 50px; }
 
-header {
-position: fixed;
-width: 100%;
-top: 0;
-left: 0;
-background: #111;
-padding: 20px 100px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 1000;
-}
+header { position: fixed; width: 100%; top: 0; left: 0; background: #111; padding: 20px 100px; display: flex; justify-content: space-between; align-items: center; z-index: 1000; }
 
-.logo {
-color: #fff;
-font-size: 28px;
-font-weight: bold;
-text-decoration: none;
-}
+.logo { color: #fff; font-size: 28px; font-weight: bold; text-decoration: none; }
 
-.navbar a {
-color: #fff;
-margin-left: 20px;
-text-decoration: none;
-}
+.navbar a { color: #fff; margin-left: 20px; text-decoration: none; }
 
-.navbar a:hover,
-.navbar a.active {
-color: #0f0;
-}
+.navbar a:hover, .navbar a.active { color: #0f0; }
 
-.home {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding-top: 100px;
-}
+.home { display: flex; align-items: center; justify-content: space-between; padding-top: 100px; }
 
-.home-img img {
-width: 400px;
-border-radius: 50%;
-}
+.home-img img { width: 400px; border-radius: 50%; }
 
-.home-content h1 {
-font-size: 36px;
-margin-bottom: 10px;
-}
+.home-content h1 { font-size: 36px; margin-bottom: 10px; }
 
-.home-content h3 {
-font-size: 24px;
-margin-bottom: 20px;
-}
+.home-content h3 { font-size: 24px; margin-bottom: 20px; }
 
-.social-icons a {
-color: #fff;
-font-size: 20px;
-margin-right: 10px;
-}
+.social-icons a { color: #fff; font-size: 20px; margin-right: 10px; }
 
-.btn {
-display: inline-block;
-background: #0f0;
-color: #000;
-padding: 10px 20px;
-margin-top: 20px;
-text-decoration: none;
-border-radius: 5px;
-}
+.btn { display: inline-block; background: #0f0; color: #000; padding: 10px 20px; margin-top: 20px; text-decoration: none; border-radius: 5px; }
 
-.sec .title h1 {
-font-size: 32px;
-margin-bottom: 30px;
-text-align: center;
-}
+.sec .title h1 { font-size: 32px; margin-bottom: 30px; text-align: center; }
 
-.Services {
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-gap: 30px;
-}
+.Services { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px; }
 
-.card {
-background: #222;
-padding: 20px;
-border-radius: 10px;
-width: 300px;
-text-align: center;
-}
+.card { background: #222; padding: 20px; border-radius: 10px; width: 300px; text-align: center; }
 
-.card .icon {
-font-size: 30px;
-margin-bottom: 10px;
-}
+.card .icon { font-size: 30px; margin-bottom: 10px; }
 
-.card h2 {
-margin-bottom: 10px;
-}
+.card h2 { margin-bottom: 10px; }
 
-.card .button {
-display: inline-block;
-margin-top: 15px;
-padding: 8px 16px;
-background: #0f0;
-color: #000;
-border-radius: 5px;
-text-decoration: none;
-}
+.card .button { display: inline-block; margin-top: 15px; padding: 8px 16px; background: #0f0; color: #000; border-radius: 5px; text-decoration: none; }
 
-.skills {
-background: black;
-padding: 50px 20px;
-}
+.skills { background: black; padding: 50px 20px; margin-bottom: 20px; }
 
-.skills .heading {
-font-size: 32px;
-text-align: center;
-margin-bottom: 40px;
-}
+.skills .heading { font-size: 32px; text-align: center; margin-bottom: 40px; }
 
-.skills .container {
-max-width: 1200px;
-margin: auto;
-}
+.skills .container { max-width: 1200px; margin: auto; }
 
-.skills .row {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 20px;
-}
+.skills .row { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
 
-.skills .bar {
-background: black;
-padding: 15px;
-border-radius: 10px;
-width: 150px;
-text-align: center;
-}
+.skills .bar { background: black; padding: 15px; border-radius: 10px; width: 150px; text-align: center; }
 
-.skills .bar img {
-width: 50px;
-height: 50px;
-object-fit: contain;
-margin-bottom: 10px;
-}
+.skills .bar img { width: 50px; height: 50px; object-fit: contain; margin-bottom: 10px; }
 
-.skills .bar span {
-display: block;
-}
+.skills .bar span { display: block; }
 
-.con {
-background: #000;
-padding: 50px 20px;
-}
+.con { background: #000; padding: 50px 20px; }
 
-.con .heading {
-font-size: 32px;
-text-align: center;
-margin-bottom: 30px;
-}
+.con .heading { font-size: 32px; text-align: center; margin-bottom: 30px; }
 
-form {
-max-width: 800px;
-margin: auto;
-display: flex;
-flex-direction: column;
-gap: 20px;
-}
+form { max-width: 800px; margin: auto; display: flex; flex-direction: column; gap: 20px; }
 
-form .box {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-}
+form .box { display: flex; flex-wrap: wrap; gap: 20px; }
 
-form .box input {
-flex: 1;
-padding: 10px;
-background: black;
-border: 1px solid #0f0;
-color: #fff;
-border-radius: 5px;
-}
+form .box input { flex: 1; padding: 10px; background: black; border: 1px solid #0f0; color: #fff; border-radius: 5px; }
 
-form textarea {
-padding: 10px;
-background: #000;
-border: 1px solid #0f0;
-color: #fff;
-border-radius: 5px;
-resize: vertical;
-}
+form textarea { padding: 10px; background: #000; border: 1px solid #0f0; color: #fff; border-radius: 5px; resize: vertical; }
 
-form .btn {
-align-self: flex-start;
-background:#0f0 ;
-color: #000;
-padding: 10px 20px;
-text-decoration: none;
-border: none;
-cursor: pointer;
-border-radius: 5px;
-margin-bottom: 20px;
-margin-top: 0px;
-}
+form .btn { align-self: flex-start; background: #0f0; color: #000; padding: 10px 20px; text-decoration: none; border: none; cursor: pointer; border-radius: 5px; margin-bottom: 20px; margin-top: 0px; }
 
-/talk/
+.cards.contact1 { background: black; color: #fff; padding: 60px 20px; text-align: center; }
 
-.cards.contact1 {
-background: black;
-color: #fff;
-padding: 60px 20px;
-text-align: center;
-}
+.cards.contact1 h2 { font-size: 2.5em; margin-bottom: 40px; color: #0f0; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
 
-.cards.contact1 h2 {
-font-size: 2.5em;
-margin-bottom: 40px;
-color: #0f0;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 1px;
-}
+.content1 { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
 
-.content1 {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 30px;
-}
+.card1 { background: #1a1a1a; border: 1px solid #333; padding: 30px; border-radius: 20px; width: 280px; transition: 0.4s ease; box-shadow: 0 0 20px #0f0; }
 
-.card1 {
-background: #1a1a1a;
-border: 1px solid #333;
-padding: 30px;
-border-radius: 20px;
-width: 280px;
-transition: 0.4s ease;
-box-shadow: 0 0 20px #0f0;
-}
+.card1:hover { transform: translateY(-10px); box-shadow: 0 0 30px #0f0; }
 
-.card1:hover {
-transform: translateY(-10px);
-box-shadow: 0 0 30px #0f0;
-}
+.card1 .icon { font-size: 2.5em; color: #0f0; margin-bottom: 15px; }
 
-.card1 .icon {
-font-size: 2.5em;
-color: #0f0;
-margin-bottom: 15px;
-}
+.card1 .info1 h3 { font-size: 1.3em; margin-bottom: 8px; color: #fff; }
 
-.card1 .info1 h3 {
-font-size: 1.3em;
-margin-bottom: 8px;
-color: #fff;
-}
+.card1 .info1 p { font-size: 1em; color: #ccc; }
 
-.card1 .info1 p {
-font-size: 1em;
-color: #ccc;
-}
+footer { background-color: #000; }
 
-/footer/
-footer{
-background-color: #black;
-}
-.footerbotom{
-background-color: green;
-padding: 20px;
-text-align: center;
-}
-.footerbotom p{
-color: white;
-}
-.des{
-opacity: 0.7;
-text-transform:uppercase;
-letter-spacing:1px ;
-width: 400;
-margin: 0px 5px;
-}
+.footerbotom { background-color: green; padding: 20px; text-align: center; }
 
-.custom-success-message {
-display: none;
-padding: 15px 20px;
-background-color: #0f0;
-color: #000;
-font-weight: bold;
-font-size: 16px;
-border-radius: 10px;
-text-align: center;
-margin-top: 20px;
-box-shadow: 0 0 15px #0f0, 0 0 25px #0f0, 0 0 35px #0f0;
-animation: fadeInOut 3s ease forwards;
-}
+.footerbotom p { color: white; }
 
-@keyframes fadeInOut {
-0% { opacity: 0; transform: translateY(-10px); }
-10% { opacity: 1; transform: translateY(0); }
-90% { opacity: 1; }
-100% { opacity: 0; transform: translateY(-10px); }
-}
-.more-text {
-display: none;
-}
+.des { opacity: 0.7; text-transform: uppercase; letter-spacing: 1px; width: 400px; margin: 0px 5px; }
 
-.read-more-btn {
-margin-top: 10px;
-display: inline-block;
-background-color: #0f0;
-color: #000;
-padding: 8px 16px;
-text-decoration: none;
-border-radius: 5px;
-cursor: pointer;
-font-weight: bold;
-transition: background 0.3s;
-}
+.custom-success-message { display: none; padding: 15px 20px; background-color: #0f0; color: #000; font-weight: bold; font-size: 16px; border-radius: 10px; text-align: center; margin-top: 20px; box-shadow: 0 0 15px #0f0, 0 0 25px #0f0, 0 0 35px #0f0; animation: fadeInOut 3s ease forwards; }
 
-.read-more-btn:hover {
-background-color: #0c0;
-}
+@keyframes fadeInOut { 0% { opacity: 0; transform: translateY(-10px); } 10% { opacity: 1; transform: translateY(0); } 90% { opacity: 1; } 100% { opacity: 0; transform: translateY(-10px); } }
 
-/* --- تعديل المسافة بين skills و con --- */
-.skills {
-margin-bottom: 20px;
-}
+.more-text { display: none; }
 
-/* --- خط فاصل بين skills و contact --- */
-#con::before {
-content: "";
-display: block;
-width: 80%;
-height: 2px;
-margin: 0 auto 40px auto;
-background: linear-gradient(to right, #0f0, #0a0);
-box-shadow: 0 0 10px #0f0;
-border-radius: 2px;
-}
+.read-more-btn { margin-top: 10px; display: inline-block; background-color: #0f0; color: #000; padding: 8px 16px; text-decoration: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: background 0.3s; }
 
-/* --- تصحيح لون خلفية الفوتر --- */
-footer {
-background-color: #000;
-}
+.read-more-btn:hover { background-color: #0c0; }
 
-/* --- responsive tweaks (للموبايل) --- */
-@media (max-width: 768px) {
-header {
-padding: 10px 20px;
-flex-direction: column;
-align-items: flex-start;
-}
+.heading::after { content: ""; display: block; width: 80px; height: 2px; background: #0f0; margin: 10px auto 30px auto; border-radius: 5px; }
 
-.navbar {
-margin-top: 10px;
-display: flex;
-flex-wrap: wrap;
-gap: 10px;
-}
+.home-content { animation: fadeInUp 1.5s ease forwards; opacity: 0; }
 
-.home {
-flex-direction: column;
-text-align: center;
-}
+@keyframes fadeInUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-.home-img img {
-width: 250px;
-margin-bottom: 20px;
-}
+.menu-icon { display: none; font-size: 28px; color: #fff; cursor: pointer; z-index: 999; position: absolute; top: 25px; right: 30px; }
 
-.Services {
-flex-direction: column;
-align-items: center;
-}
+@media (max-width: 768px) { .navbar { display: none; flex-direction: column; position: absolute; top: 60px; right: 20px; background: #111; padding: 10px 20px; border-radius: 10px; box-shadow: 0 0 15px #0f0; z-index: 999; }
 
-.skills .row {
-gap: 15px;
-}
+.navbar a { margin: 10px 0; display: block; }
 
-form .box {
-flex-direction: column;
-}
+.navbar.show { display: flex; }
 
-.card1 {
-width: 90%;
-}
-}
-.btn:hover {
-background: #0f0;
-box-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
-}
-.button read-more-btn:hover {
-background: #0f0;
-box-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
-}
-.heading::after {
-content: "";
-display: block;
-width: 80px;
-height: 2px;
-background: #0f0;
-margin: 10px auto 30px auto;
-border-radius: 5px;
-}
+.menu-icon { display: block; }
 
-/* مثال بسيط */
-.home-content {
-animation: fadeInUp 1.5s ease forwards;
-opacity: 0;
-}
-@keyframes fadeInUp {
-from {
-transform: translateY(30px);
-opacity: 0;
-}
-to {
-transform: translateY(0);
-opacity: 1;
-}
-}
+header { padding: 10px 20px; flex-direction: column; align-items: flex-start; }
+
+.home { flex-direction: column; text-align: center; }
+
+.home-img img { width: 250px; margin-bottom: 20px; }
+
+.Services { flex-direction: column; align-items: center; }
+
+.skills .row { gap: 15px; }
+
+form .box { flex-direction: column; }
+
+.card1 { width: 90%; } }
+
+.btn:hover, .button.read-more-btn:hover { background: #0f0; box-shadow: 0 0 10px #0f0, 0 0 20px #0f0; }
+
