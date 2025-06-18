@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta name="description" content="SkarLogo - Custom Minecraft PvP Resource Pack for Java 1.12.2 | Web Design & Game Support Services">
     <link rel="stylesheet" href="style.css">
     <title>SKARLOGO</title>
 </head>
 <body>
     <header>
+      
+
+  <i class="fas fa-bars menu-icon" id="menu-icon"></i>
         <a href="#" class="logo">SkarLogo</a>
 
         <nav class="navbar">
             <a href="#home" class="active"> Home</a>
             <a href="#services" >Services</a>
             <a href="#skills" >Skills</a>
-            <a href="#contact me" >contact</a>
+            <a href="#con" >contact</a>
             <a href="#work" >worker</a>
         </nav>
     </header>
     <section class="home">
         <div class="home-img">
-            <img src="ma1in.jpg" alt="">
+            <img src="ma1in.jpg/" alt="">
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Skar</span></h1>
@@ -34,7 +38,7 @@
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="https://www.mediafire.com/file/m1jp0kc9mzx10b2/Skarlogo1.12.2_Resource_Pack.zip/file" class="btn">DONLOWD NOW</a>
+            <a href="https://www.mediafire.com/file/m1jp0kc9mzx10b2/Skarlogo1.12.2_Resource_Pack.zip/file" class="btn">DOWNLOAD NOW</a>
         </div>
     </section>
     <div class="sec">
@@ -194,7 +198,7 @@
 <footer>
     </div>
         <div class="footerbotom">
-      <p>coppyright &coppy;2025 Designed by <span class="dis">SeifMohamed</span></p>
+<p>Copyright &copy; 2025 Designed by <span class="dis">SeifMohamed</span></p>
     </div>
     </footer>
     
@@ -251,6 +255,13 @@
       }
     });
   });
+  // زر القائمة في الموبايل
+const menuIcon = document.getElementById("menu-icon");
+const navbar = document.getElementById("navbar");
+
+menuIcon.addEventListener("click", () => {
+  navbar.classList.toggle("show");
+});
 </script>
     
 </body>
