@@ -350,3 +350,72 @@ footer{
 .read-more-btn:hover {
   background-color: #0c0;
 }
+
+
+
+
+
+/* --- تعديل المسافة بين skills و con --- */
+.skills {
+  margin-bottom: 20px;
+}
+
+/* --- خط فاصل بين skills و contact --- */
+#con::before {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(to right, #0f0, #0a0);
+  box-shadow: 0 0 10px #0f0;
+  border-radius: 2px;
+}
+
+/* --- تصحيح لون خلفية الفوتر --- */
+footer {
+  background-color: #000;
+}
+
+/* --- responsive tweaks (للموبايل) --- */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-img img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .Services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills .row {
+    gap: 15px;
+  }
+
+  form .box {
+    flex-direction: column;
+  }
+
+  .card1 {
+    width: 90%;
+  }
+}
