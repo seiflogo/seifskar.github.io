@@ -419,3 +419,77 @@ footer {
     width: 90%;
   }
 }
+.btn:hover {
+  background: #0f0;
+  box-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+}
+.button read-more-btn:hover {
+  background: #0f0;
+  box-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+}
+.heading::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #0f0;
+  margin: 10px auto 30px auto;
+  border-radius: 5px;
+}
+
+/* مثال بسيط */
+.home-content {
+  animation: fadeInUp 1.5s ease forwards;
+  opacity: 0;
+}
+@keyframes fadeInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* زر المينيو */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+/* قائمة الموبايل */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0f0;
+    z-index: 999;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+    display: block;
+  }
+
+  .navbar.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
